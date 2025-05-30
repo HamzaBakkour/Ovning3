@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.36105.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonSim", "PokemonSim\PokemonSim.csproj", "{75946C20-DD3B-4C6F-8472-FEB9A6C88078}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonSim.Helpers", "PokemonSim.Helpers\PokemonSim.Helpers.csproj", "{9E9B5CDC-ABD6-4AE1-9D98-B54766D47B8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonSim.Abstractions", "PokemonSim.Abstractions\PokemonSim.Abstractions.csproj", "{1EDBA64D-672A-4D91-8904-6540A9F23B0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonSim.Actions", "PokemonSim.Actions\PokemonSim.Actions.csproj", "{D9B7EB51-23F3-47C5-8174-2C1D7D1B5BE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75946C20-DD3B-4C6F-8472-FEB9A6C88078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75946C20-DD3B-4C6F-8472-FEB9A6C88078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75946C20-DD3B-4C6F-8472-FEB9A6C88078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75946C20-DD3B-4C6F-8472-FEB9A6C88078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E9B5CDC-ABD6-4AE1-9D98-B54766D47B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E9B5CDC-ABD6-4AE1-9D98-B54766D47B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E9B5CDC-ABD6-4AE1-9D98-B54766D47B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E9B5CDC-ABD6-4AE1-9D98-B54766D47B8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EDBA64D-672A-4D91-8904-6540A9F23B0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EDBA64D-672A-4D91-8904-6540A9F23B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EDBA64D-672A-4D91-8904-6540A9F23B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EDBA64D-672A-4D91-8904-6540A9F23B0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9B7EB51-23F3-47C5-8174-2C1D7D1B5BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9B7EB51-23F3-47C5-8174-2C1D7D1B5BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9B7EB51-23F3-47C5-8174-2C1D7D1B5BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9B7EB51-23F3-47C5-8174-2C1D7D1B5BE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C9CF15D-E676-4118-ABB8-255F1D30B563}
+	EndGlobalSection
+EndGlobal
