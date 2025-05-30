@@ -25,7 +25,7 @@ internal class Main
 
         foreach (var pokemon in _pokemons)
         {
-            _ui.Print(pokemon.Attack());
+            pokemon.RanodmAttack();
         }
 
         _ui.Print();
@@ -44,7 +44,8 @@ internal class Main
 
         foreach (var pokemon in _pokemons)
         {
-            _ui.Print(pokemon.Attack());
+            pokemon.Attack();
+
         }
     }
 }
